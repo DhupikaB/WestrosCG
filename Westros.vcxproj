@@ -76,12 +76,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Dhupika Bandara\Desktop\Westros\Include\GL_files\SOIL2\includes;C:\Users\Dhupika Bandara\Desktop\Westros\Include\GL_files\include\GL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Dhupika Bandara\Desktop\WestrosCG\opengl\GL_files\GL_files\include\GL;C:\Users\Dhupika Bandara\Desktop\WestrosCG\opengl\SOIL2\SOIL2\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Dhupika Bandara\Desktop\Westros\Include\GL_files\SOIL2\lib;C:\Users\Dhupika Bandara\Desktop\Westros\Include\GL_files\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Dhupika Bandara\Desktop\WestrosCG\opengl\GL_files\GL_files\lib;C:\Users\Dhupika Bandara\Desktop\WestrosCG\opengl\SOIL2\SOIL2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glu32.lib;glut32.lib;soil2-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -105,10 +105,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Dhupika Bandara\Desktop\WestrosCG\opengl\SOIL2\SOIL2\includes;C:\Users\Dhupika Bandara\Desktop\WestrosCG\opengl\GL_files\GL_files\include\GL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Dhupika Bandara\Desktop\WestrosCG\opengl\SOIL2\SOIL2\lib;C:\Users\Dhupika Bandara\Desktop\WestrosCG\opengl\GL_files\GL_files\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glut32.lib;soil2-debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
